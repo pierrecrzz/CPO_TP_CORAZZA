@@ -11,10 +11,11 @@ package premierprojetsurgithub;
 public class PremierProjetSurGithub {
 
     /**
-     * @param args the command line arguments
+     * @param args les arguments de ligne de commande 
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("hello!");
     }
     
 }
