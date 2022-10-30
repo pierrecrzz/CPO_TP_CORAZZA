@@ -9,5 +9,12 @@ package tp2_manip_corazza;
  * @author coraz
  */
 public class Tartiflette {
-    
+     int nbCalories ;
+
+public Tartiflette ( int Calories ){
+
+    nbCalories=Calories;
+    }
+
+
 }
