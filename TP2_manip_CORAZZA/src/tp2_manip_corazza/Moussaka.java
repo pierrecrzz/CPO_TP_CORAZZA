@@ -8,6 +8,12 @@ package tp2_manip_corazza;
  *
  * @author coraz
  */
-public class Moussaka {
+public class Moussaka   {
     
+    int nbCalories ;
+    
+public Moussaka (int Calories)   {
+
+    nbCalories=Calories; 
+    }
 }
