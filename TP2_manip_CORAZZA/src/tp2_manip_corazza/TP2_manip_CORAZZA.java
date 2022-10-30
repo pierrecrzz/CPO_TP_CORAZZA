@@ -34,5 +34,13 @@ public class TP2_manip_CORAZZA {
         // les lignes sont fausses car elles référencent le mauvais type d'objet
         
         
+        
+         Moussaka[]tableauMoussaka = new Moussaka[10]  ; // on va créer un tableau de 10 valeurs               
+        for (int j=0; j < 10; j++)   { 
+            //j'essaye de créer une boucle pour ne pas écrire 10 fois la même instruction
+            
+            Moussaka moussaka1 = new Moussaka ()  ;
+            tableauMoussaka [j] = Moussaka1  ;
     }    
+}
 }
