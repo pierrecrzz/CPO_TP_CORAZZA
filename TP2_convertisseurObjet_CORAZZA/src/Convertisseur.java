@@ -13,7 +13,14 @@ import java.util.Scanner;
 public class Convertisseur  {
     int nbConversions;
     
-    public Convertisseur(){
+    public Convertisseur() {
         nbConversions = 0;
-    }   
+    }
+    
+    
+    @Override
+    public String toString(){       
+        return "nombre de conversions : "+ nbConversions;
+    }
+     
 }
