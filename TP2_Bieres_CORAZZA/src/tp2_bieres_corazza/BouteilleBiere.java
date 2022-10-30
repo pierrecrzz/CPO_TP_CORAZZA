@@ -33,5 +33,20 @@ public void Décapsuler() {
         System.out.println("La bouteille a déjà été ouverte") ;
     }    
 }
+
+
+@Override
+public String toString() {
+String chaine_a_retourner;
+chaine_a_retourner = Nom + " (" + degreAlcool + " degrés) ouverte ? ";
+if (ouverte == true ) chaine_a_retourner += "oui" ;
+else chaine_a_retourner += "non" ;
+return chaine_a_retourner ;
+}
+
+
+
 }  
+
+
 
