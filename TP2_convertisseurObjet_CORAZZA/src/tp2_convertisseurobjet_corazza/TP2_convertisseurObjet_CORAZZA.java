@@ -13,8 +13,29 @@ public class TP2_convertisseurObjet_CORAZZA {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+    public static void main(String[]args)  {
+        
+        Convertisseur temperature=new Convertisseur() ;
+        
+            temperature .CelciusVersKelvin(265 )  ;
+        
+            temperature . FarenheitVersCelcius(125 ) ;
+        
+            temperature .KelvinVersFarenheit(59 )  ;
+        
+        
+        
+        Convertisseur celcius = new Convertisseur() ;
+        
+            celcius .CelciusVersKelvin (36 ) ;
+        
+            celcius .CelciusVersFarenheit (298 ) ;   
+        
+        
+            
+System.out.println(celcius)  ;
+        
+System.out.println(temperature)  ;
+        
+    }//Fin du main 
 }
